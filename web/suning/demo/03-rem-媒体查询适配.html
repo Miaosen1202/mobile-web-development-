@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @media (min-width: 320px) {
+            html{
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 360px) {
+            html{
+                font-size: 56.25px;
+            }
+        }
+        @media (min-width: 375px) {
+            html{
+                font-size: 58.59375px;
+            }
+        }
+        /*rem基准值换算不方便*/
+    </style>
+</head>
+<body>
+<!--
+1.常见的设计稿  640px 750px
+2.主流设备的尺寸：320px,360px,375px,384px,411px,414px,480px,540px,600px,640px,750px
+3.通过媒体查询设备不同设备的rem基准值
+4.必须线假设设计稿 640px  基准值 100px  其他设备安装比例去换算即可
+5.换算公式  当前设备的基准值 =  当前设备的宽度/设计稿的宽度 * 假设的基准值
+-->
+</body>
+</html>

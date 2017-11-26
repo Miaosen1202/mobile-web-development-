@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <script src="flexible/index.min.js"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        /*750px  100px * 100px */
+        /*375px  50px * 50px */
+        /*假设 750px 设备  75px  */
+        /*假设 375px 设备  37.5px  */
+        .box{
+            width: 1.3333333rem;
+            height: 1.3333333rem;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<!--
+1. flexible.js 就是一个手机淘宝团队  开发的一个计算rem基准的库
+2. 下载：https://github.com/amfe/lib-flexible
+3. 引入需要在页面头部引入  提前算出rem基准值
+-->
+<div class="box"></div>
+</body>
+</html>
